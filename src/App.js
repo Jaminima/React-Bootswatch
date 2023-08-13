@@ -7,10 +7,13 @@ function App() {
     <div className="App">
       <CenteredDiv height={50} sizerHeight={"vh"} width={50} sizerWidth={"vw"}>
           <div className="card border-primary mb-3" style={{maxWidth: "50rem"}}>
-              <div className="card-header">Header</div>
+              <div className="card-header">Welcome To</div>
               <div className="card-body">
-                  <h4 className="card-title">Primary card title</h4>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h4 className="card-title">React & Bootswatch</h4>
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <p className="card-text">
+                      Get React Tips <a href="https://reactjs.org" target="_blank">Here</a> And Learn About <a href="https://bootswatch.com/" target="_blank">Bootswatch</a>
+                  </p>
               </div>
           </div>
       </CenteredDiv>
